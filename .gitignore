@@ -124,6 +124,7 @@ celerybeat.pid
 # Environments
 txt
 gz
+.DS_Store
 pt
 .env
 .venv
