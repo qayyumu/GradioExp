@@ -13,6 +13,9 @@ Pillow
 #request for URL fetching
 requests
 
+#include the variable from .env
+python-dotenv
+
 # Data ingestion scraping
 selenium
 
