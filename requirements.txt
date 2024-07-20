@@ -1,0 +1,31 @@
+# Gradio
+gradio
+
+# OpenAI
+openai
+
+# Hugging Face Transformers
+transformers
+
+# Pillow (PIL)
+Pillow
+
+#request for URL fetching
+requests
+
+# Data ingestion scraping
+selenium
+
+# PyTorch
+torch
+
+# Additional dependencies for NLP and data handling
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Hugging Face Datasets (optional, if needed)
+datasets
+# For image processing (if needed)
+opencv-python

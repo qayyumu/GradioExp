@@ -121,8 +121,8 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
-txt
+# Environments (I/O we generate txt file with ext tx)
+tx 
 gz
 .DS_Store
 pt
