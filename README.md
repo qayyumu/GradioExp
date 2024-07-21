@@ -1,4 +1,4 @@
-# GradioExp Workshop
+# AI Workshop
 
 Welcome to the **AI Practical Workshop**! 
 
