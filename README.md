@@ -20,36 +20,39 @@ During this workshop, participants will gain practical experience with the follo
 
 ### Day 1: Python Basics and OOP
 
-- **SESSION_01_Python**:
+- **Python Basics**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_01/Python_basics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Introduction to Python programming.
   - Basic syntax and data structures.
 
-- **SESSION_02_classes**:
+- **OOP and External Packages**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_01/Python_OOP_and_external_packages.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Object-Oriented Programming in Python.
   - Understanding classes and objects.
   - Inheritance, encapsulation, and polymorphism.
 
-- **Numpy, Pandas, Matplotlib**:
-  - Introduction to Numpy, Pandas, Matplotlib for numerical computations.
+  - **Numpy, Pandas, Matplotlib**:
+    - Introduction to Numpy, Pandas, Matplotlib for numerical computations.
 
 ### Day 2: Introduction to Gradio and OpenAI
 
-- **Gradio**:
+- **Gradio**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_02/Intro_to_Gradio.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Building interactive demos and interfaces.
 
-- **OpenAI**:
+- **OpenAI**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_02/OpenAI_API.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Utilizing OpenAI models for various AI tasks esp text generation.
 
 ### Day 3: Hugging Face for NLP
 
-- **NLP with HuggingFace**:
-  - **Sentiment Analysis**: Analyze text to determine sentiment.
-  - **Summarization, Text Classification (NER)**: Summarize long texts into concise summaries and Name Entity Recognition (NER) .
+- **NLP with HuggingFace**: 
+  - **Sentiment Analysis**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_03/HuggingFace.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+    - Analyze text to determine sentiment.
+  - **Summarization, Text Classification (NER)**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_03/Train_Custom_mdels.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    - Summarize long texts into concise summaries and Name Entity Recognition (NER) .
 
 ### Day 4: Gradio and Hugging Face Applications
 
-- **Voice Transcription**:
+- **Voice Transcription**:  <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_04/Gradio_and_Huggingface.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Transcribe spoken language into text using AI models using huggingface and Gradio.
+
 
 - **Image Classification**:
   - Build and train image classification models.
@@ -58,9 +61,11 @@ During this workshop, participants will gain practical experience with the follo
 - **Image to Text**:
   - Convert images to textual descriptions using AI models.
 
+- **Run Sentiment Analyss on scraped data**:  <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_04/Huggingface_Selenium_Sentiment.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ### Day 5: Introduction to PyTorch
 
-- **PyTorch**:
+- **PyTorch**: <a href="https://colab.research.google.com/github/qayyumu/GradioExp/blob/main/session_05/Pytorch.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - Introduction to PyTorch for deep learning.
   - Building and training neural networks.
   - Developing custom neural network models for classification.
