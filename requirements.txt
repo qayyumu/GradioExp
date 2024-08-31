@@ -10,6 +10,13 @@ transformers
 # Pillow (PIL)
 Pillow
 
+#crewai multiagent
+crewai
+
+#langchain
+langchain
+langchain-ollama
+
 #request for URL fetching
 requests
 
