@@ -124,6 +124,8 @@ celerybeat.pid
 # Environments (I/O we generate txt file with ext tx)
 tx 
 gz
+*.jpeg
+*.jpg
 *.mp3
 .DS_Store
 pt
