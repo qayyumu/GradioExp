@@ -126,6 +126,7 @@ tx
 gz
 *.jpeg
 *.jpg
+*.png
 *.mp3
 .DS_Store
 pt
