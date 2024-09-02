@@ -22,7 +22,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lars
 from sklearn.ensemble import AdaBoostRegressor
 regressor = LinearRegression()
-regressor = LinearRegression()
 regressor.fit(X_train, Y_train)
 print(regressor,"\n")
 
@@ -48,21 +47,3 @@ plt.title("Salary vs Experience (Test Set)")
 plt.xlabel("Years of experience")
 plt.ylabel("Salary")
 plt.show()
-
-
-# from sklearn.linear_model import LinearRegression
-# #Fitting Polynomial Regression to dataset
-# from sklearn.preprocessing import PolynomialFeatures
-# poly_reg = PolynomialFeatures(degree=14)
-# X_poly = poly_reg.fit_transform(X)
-# lin_reg_2 = LinearRegression()
-# lin_reg_2.fit(X_poly, Y)
-
-# #Visualizing the results
-# plt.scatter(X, Y, color="red")
-# plt.plot(X, lin_reg_2.predict(poly_reg.fit_transform(X)), color="blue")
-# plt.title("Salary vs Experience (Test Set)")
-# plt.xlabel("Years of experience")
-# plt.ylabel("Salary")
-# plt.show()
-
