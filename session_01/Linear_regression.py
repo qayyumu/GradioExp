@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Lars
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.model_selection import train_test_split
 
 #Import dataset
 dataset = pd.read_csv("Salary_Data.csv")
@@ -10,7 +14,6 @@ print("X and Y")
 print(X, "\n\n", Y.reshape(-1,1), "\n")
 
 #Splitting the dataset into train and test
-from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, random_state=0)
 print("X train and test")
 print(X_train, "\n\n", X_test, "\n")
@@ -18,9 +21,6 @@ print("Y train and test")
 print(Y_train.reshape(-1,1), "\n\n", Y_test.reshape(-1,1), "\n")
 
 #Fitting Simple Linear Regression to the Training Set
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Lars
-from sklearn.ensemble import AdaBoostRegressor
 regressor = LinearRegression()
 regressor.fit(X_train, Y_train)
 print(regressor,"\n")
