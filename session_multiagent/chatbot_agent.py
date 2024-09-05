@@ -1,15 +1,21 @@
 import requests, json
 
 import gradio as gr
+import os
 
+test_Ollama = 1
 
 # model = 'llama3.1' #heavy model from meta 8B
 model = 'phi3:mini'  #lightweight 3B model
 context = [] 
 
 
-
-import gradio as gr
+API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B"
+from dotenv import load_dotenv
+load_dotenv()
+hf_token_access = os.environ.get("hf_token_access")
+# hf_token_access = %env hf_token_access
+headers = {"Authorization": f"Bearer {hf_token_access}"}
 
 
 
@@ -45,14 +51,22 @@ def generate(prompt, context, top_k, top_p, temp):
             context = body.get('context', [])
             return response, context
 
-
+def generate_hf(prompt, context):
+    
+    response = requests.post(API_URL, headers=headers, json=prompt)
+    response_txt =  response.json()
+    return response_txt, context
 
 def chat(input, chat_history, top_k, top_p, temp):
 
     chat_history = chat_history or []
 
     global context
-    output, context = generate(input, context, top_k, top_p, temp)
+    
+    if(test_Ollama):
+        output, context = generate(input, context, top_k, top_p, temp)
+    else:
+        output, context = generate_hf(input, context)
 
     chat_history.append((input, output))
   
